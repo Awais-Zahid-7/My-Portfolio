@@ -1,0 +1,265 @@
+/* Responsive Navbar */
+
+@media only screen and (max-width: 950px) {
+    nav {
+        position: absolute;
+    }
+    header {
+        height: 120px;
+      }
+}
+
+@media only screen and (max-width: 849px) {
+    header {
+        height: 88px;
+        
+      }
+
+      nav ul {
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      
+      nav ul .theme-toggle {
+        display: none;
+      }
+}
+
+@media only screen and (max-width: 364px) {
+    header {
+        height: 150px;
+      }
+
+}
+
+/* Responsive Home Section */
+
+@media only screen and (max-width: 789px) {
+    .home {
+        flex-direction: column-reverse;
+      }
+
+}
+
+@media only screen and (max-width: 391px) {
+    .home {
+        font-size: 0.8rem;
+      }
+
+}
+
+@media only screen and (max-width: 354px) {
+    .home {
+        font-size: 0.7rem;
+      }
+
+      .home .left .btns button {
+        padding: 6px;
+      }
+
+}
+
+@media only screen and (max-width: 314px) {
+
+      .home .left .btns button {
+        padding: 4px;
+      }
+
+}
+
+
+/* Responsive About Section */
+
+@media only screen and (max-width: 750px) {
+    .about p {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .about p {
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .about p {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 388px) {
+    .about p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    .about p {
+        font-size: 11px;
+    }
+}
+
+
+/* Responsive Education Section */
+
+@media only screen and (max-width: 1210px) {
+    .education .details {
+        width: unset;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .education .details {
+        width: 41rem;
+    height: auto;
+    flex-direction: column;
+    
+    }
+    #educ {
+        margin-left: unset;
+    }
+
+    .education {
+        height: auto;
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (max-width: 546px) {
+
+    .main-heading h1 {
+        font-size: inherit;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .eduaction-section .content {
+        font-size: 13px;
+    }
+}
+
+
+/* Responsive Skills Section */
+
+@media only screen and (max-width: 870px) {
+
+    main .skills {
+        width: unset;
+        height: unset;
+        margin: 20px 0px;
+        justify-content: center;
+    }
+    main .skills .sectionss ul {
+        margin: unset;
+    }
+    main .skills .sectionss {
+        height: unset;
+    }
+    main .skills .sectionss h2 {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    main .skills .sectionss {
+        height: unset;
+    }
+    main .skills .sectionss ul {
+        margin: unset;
+    }
+   
+}
+
+@media only screen and (max-width: 740px) {
+    main .skills .sectionss {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    main .skills .sectionss {
+        width: 100%;
+    }
+   
+}
+
+@media only screen and (max-width: 500px) {
+
+    main .skills {
+        display: block;
+        width: 80%;
+        margin-top: 10px;
+        margin: 10px auto;
+    }
+}
+
+/* Responsive Projects Section */
+
+@media only screen and (max-width: 1260px) {
+
+    .projects .hexagon-group-container {
+        flex-wrap: wrap;
+    }
+    .projects {
+        min-width: unset;
+        height: unset;
+    }
+}
+
+
+/* Responsive Contact Section */
+
+
+
+@media only screen and (max-width: 900px) {
+    .contact-form {
+        /* display: unset; */
+        height: 72vh;
+    }
+    
+    .content .heading {
+        padding-top: 17px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1230px) {
+    .contact-form {
+        width: 72vw;
+    }
+    
+}
+
+@media only screen and (max-width: 750px) {
+    .content form {
+        gap: 0px;
+    }
+    .contact-form {
+        height: 31rem;
+    width: 80%;
+    }
+    .projects .hexagon-group-container .hexagon {
+        padding: unset;
+    }
+}
+
+
+
+/* Responsive Footer Section */
+
+
+
+@media only screen and (max-width: 450px) {
+    footer {
+        font-size: smaller;
+    }
+}
